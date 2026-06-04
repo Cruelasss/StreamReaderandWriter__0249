@@ -44,9 +44,10 @@ int main()
         //perulangan untuk membaca setiap baris
         while (getline(infile, baris))
         {
-            //menutup file setelah pembacaan selesai
+           
             cout << baris << endl;
         }
+         //menutup file setelah pembacaan selesai
         infile.close();
 
     }
