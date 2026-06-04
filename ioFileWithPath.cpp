@@ -3,11 +3,13 @@
 #include <string>
 using namespace std;
 
+int main(){
+  string baris, NamaFile;
 
-int main()
-{
+  cout << "Masukkan nama file : ";
+  cin >> NamaFile;
+  
+  ofstream outfile;
+  outfile.open(NamaFile + ".txt", ios::out);
 
-    //deklarasi variabel baris untuk menyimpan data string
-    string baris;
-
-    //
+  cout << ">= Menulis file, \'q\' untuk keluar" << endl;
