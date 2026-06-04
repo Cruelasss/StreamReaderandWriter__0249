@@ -20,3 +20,9 @@ int main(){
     if (baris == "q") break;
     outfile << baris << endl;
   }
+  outfile.close();
+  ifstream infile;
+  infile.open(NamaFile + ".txt", ios::in);
+  cout << endl << ">= Membuka dan membaca file" << endl;
+    
+}
